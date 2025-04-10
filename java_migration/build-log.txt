@@ -1,0 +1,531 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.payroll:payroll-system[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding Payroll System 1.0.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.2.0:clean[m [1m(default-clean)[m @ [36mpayroll-system[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/blabs/cobol-translate/java_migration/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mpayroll-system[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mpayroll-system[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 34 source files to /home/blabs/cobol-translate/java_migration/target/classes
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[3,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[4,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[5,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[6,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[21,2] cannot find symbol
+  symbol: class Getter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[22,2] cannot find symbol
+  symbol: class Setter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[23,2] cannot find symbol
+  symbol: class NoArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[24,2] cannot find symbol
+  symbol: class AllArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[25,2] cannot find symbol
+  symbol: class Builder
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[4,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[5,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[6,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[8,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[19,2] cannot find symbol
+  symbol: class Getter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[20,2] cannot find symbol
+  symbol: class Setter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[21,2] cannot find symbol
+  symbol: class NoArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[22,2] cannot find symbol
+  symbol: class AllArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[23,2] cannot find symbol
+  symbol: class Builder
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[8,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[9,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[10,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[3,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[4,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[5,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[6,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[19,2] cannot find symbol
+  symbol: class Getter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[20,2] cannot find symbol
+  symbol: class Setter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[21,2] cannot find symbol
+  symbol: class NoArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[22,2] cannot find symbol
+  symbol: class AllArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[23,2] cannot find symbol
+  symbol: class Builder
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[49,21] cannot find symbol
+  symbol:   method isTaxBlocked()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[59,21] cannot find symbol
+  symbol:   method getFederalFilingStatus()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[60,21] cannot find symbol
+  symbol:   method getFederalAllowances()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[61,21] cannot find symbol
+  symbol:   method getAdditionalFederalTax()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[67,36] cannot find symbol
+  symbol:   method getState()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[71,21] cannot find symbol
+  symbol:   method getStateFilingStatus()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[72,21] cannot find symbol
+  symbol:   method getStateAllowances()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[73,21] cannot find symbol
+  symbol:   method getAdditionalStateTax()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[155,44] cannot find symbol
+  symbol:   method getPersonalExemptionAmount()
+  location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[173,51] cannot find symbol
+  symbol:   method getFederalTaxBrackets()
+  location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[175,24] cannot find symbol
+  symbol:   method getFilingStatus()
+  location: variable bracket of type com.payroll.domain.FederalTaxBracket
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[334,41] cannot find symbol
+  symbol:   method getSocialSecurityRate()
+  location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[335,31] cannot find symbol
+  symbol:   method getSocialSecurityWageBase()
+  location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[389,35] cannot find symbol
+  symbol:   method getMedicareRate()
+  location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[390,45] cannot find symbol
+  symbol:   method getMedicareAdditionalRate()
+  location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[391,50] cannot find symbol
+  symbol:   method getMedicareAdditionalThreshold()
+  location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[63,83] cannot find symbol
+  symbol:   method getPayPeriodId()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[67,39] cannot find symbol
+  symbol:   method getCheckDate()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[68,43] cannot find symbol
+  symbol:   method getPayPeriodId()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[69,50] cannot find symbol
+  symbol:   method getPayPeriodStartDate()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[70,48] cannot find symbol
+  symbol:   method getPayPeriodEndDate()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[75,39] cannot find symbol
+  symbol:   method getDepartment()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[76,37] cannot find symbol
+  symbol:   method getPosition()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[79,44] cannot find symbol
+  symbol:   method getRegularHours()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[80,45] cannot find symbol
+  symbol:   method getOvertimeHours()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[84,44] cannot find symbol
+  symbol:   method getHourlyRate()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[85,45] cannot find symbol
+  symbol:   method getOvertimeRate()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[88,28] cannot find symbol
+  symbol:   method getRegularHours()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[88,69] cannot find symbol
+  symbol:   method getRegularHours()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[89,73] cannot find symbol
+  symbol:   method getRegularHours()
+  location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[90,24] cannot find symbol
+  symbol:   method setRegularRate(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[95,16] cannot find symbol
+  symbol:   method setRegularPay(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[96,16] cannot find symbol
+  symbol:   method setOvertimePay(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[97,16] cannot find symbol
+  symbol:   method setOtherPay(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[98,16] cannot find symbol
+  symbol:   method setGrossPay(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[102,20] cannot find symbol
+  symbol:   method setFederalTax(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[103,20] cannot find symbol
+  symbol:   method setStateTax(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[104,20] cannot find symbol
+  symbol:   method setLocalTax(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[105,20] cannot find symbol
+  symbol:   method setSocialSecurityTax(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[106,20] cannot find symbol
+  symbol:   method setMedicareTax(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[107,20] cannot find symbol
+  symbol:   method setTotalTaxes(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[112,20] cannot find symbol
+  symbol:   method setHealthInsurance(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[113,20] cannot find symbol
+  symbol:   method setDentalInsurance(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[114,20] cannot find symbol
+  symbol:   method setVisionInsurance(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[115,20] cannot find symbol
+  symbol:   method setRetirement401k(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[118,20] cannot find symbol
+  symbol:   method setDetailedDeductions(java.util.Map<java.lang.String,java.math.BigDecimal>)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[139,20] cannot find symbol
+  symbol:   method setOtherDeductions(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[141,20] cannot find symbol
+  symbol:   method setTotalDeductions(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[145,16] cannot find symbol
+  symbol:   method setNetPay(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[148,37] cannot find symbol
+  symbol:   method getYtdGross()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[149,42] cannot find symbol
+  symbol:   method getYtdFederalTax()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[150,40] cannot find symbol
+  symbol:   method getYtdStateTax()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[151,49] cannot find symbol
+  symbol:   method getYtdSocialSecurity()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[152,43] cannot find symbol
+  symbol:   method getYtdMedicare()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[153,42] cannot find symbol
+  symbol:   method getYtd401k()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[159,21] cannot find symbol
+  symbol:   method getYtdDentalDeduction()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[160,65] cannot find symbol
+  symbol:   method getYtdDentalDeduction()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[162,21] cannot find symbol
+  symbol:   method getYtdVisionDeduction()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[163,65] cannot find symbol
+  symbol:   method getYtdVisionDeduction()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[165,21] cannot find symbol
+  symbol:   method getYtd401k()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[166,65] cannot find symbol
+  symbol:   method getYtd401k()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[168,21] cannot find symbol
+  symbol:   method getYtdOtherDeduction()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[169,65] cannot find symbol
+  symbol:   method getYtdOtherDeduction()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[171,16] cannot find symbol
+  symbol:   method setYtdTotalDeductions(java.math.BigDecimal)
+  location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[173,38] cannot find symbol
+  symbol:   method getYtdNetPay()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/DeductionCalculationServiceImpl.java:[212,21] cannot find symbol
+  symbol:   method getHealthDeduction()
+  location: variable employee of type com.payroll.domain.Employee
+[[1;34mINFO[m] 100 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.933 s
+[[1;34mINFO[m] Finished at: 2025-04-10T14:21:35-04:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m on project [36mpayroll-system[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[3,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[4,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[5,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[6,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[21,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Getter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[22,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Setter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[23,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class NoArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[24,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class AllArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/TaxRate.java:[25,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Builder
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[4,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[5,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[6,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[8,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[19,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Getter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[20,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Setter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[21,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class NoArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[22,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class AllArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/FederalTaxBracket.java:[23,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Builder
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[8,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[9,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/PayStubService.java:[10,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[3,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[4,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[5,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[6,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[7,14] package lombok does not exist
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[19,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Getter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[20,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Setter
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[21,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class NoArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[22,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class AllArgsConstructor
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/domain/PayrollData.java:[23,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Builder
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[49,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method isTaxBlocked()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[59,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getFederalFilingStatus()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[60,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getFederalAllowances()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[61,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getAdditionalFederalTax()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[67,36] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getState()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[71,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getStateFilingStatus()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[72,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getStateAllowances()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[73,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getAdditionalStateTax()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[155,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPersonalExemptionAmount()
+[[1;31mERROR[m]   location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[173,51] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getFederalTaxBrackets()
+[[1;31mERROR[m]   location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[175,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getFilingStatus()
+[[1;31mERROR[m]   location: variable bracket of type com.payroll.domain.FederalTaxBracket
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[334,41] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getSocialSecurityRate()
+[[1;31mERROR[m]   location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[335,31] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getSocialSecurityWageBase()
+[[1;31mERROR[m]   location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[389,35] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getMedicareRate()
+[[1;31mERROR[m]   location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[390,45] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getMedicareAdditionalRate()
+[[1;31mERROR[m]   location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/TaxCalculationServiceImpl.java:[391,50] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getMedicareAdditionalThreshold()
+[[1;31mERROR[m]   location: variable taxRate of type com.payroll.domain.TaxRate
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[63,83] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPayPeriodId()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[67,39] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getCheckDate()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[68,43] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPayPeriodId()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[69,50] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPayPeriodStartDate()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[70,48] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPayPeriodEndDate()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[75,39] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getDepartment()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[76,37] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getPosition()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[79,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getRegularHours()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[80,45] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getOvertimeHours()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[84,44] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getHourlyRate()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[85,45] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getOvertimeRate()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[88,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getRegularHours()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[88,69] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getRegularHours()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[89,73] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getRegularHours()
+[[1;31mERROR[m]   location: variable payrollData of type com.payroll.domain.PayrollData
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[90,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setRegularRate(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[95,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setRegularPay(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[96,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setOvertimePay(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[97,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setOtherPay(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[98,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setGrossPay(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[102,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setFederalTax(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[103,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setStateTax(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[104,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setLocalTax(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[105,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setSocialSecurityTax(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[106,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setMedicareTax(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[107,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setTotalTaxes(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[112,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setHealthInsurance(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[113,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setDentalInsurance(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[114,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setVisionInsurance(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[115,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setRetirement401k(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[118,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setDetailedDeductions(java.util.Map<java.lang.String,java.math.BigDecimal>)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[139,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setOtherDeductions(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[141,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setTotalDeductions(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[145,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setNetPay(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[148,37] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdGross()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[149,42] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdFederalTax()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[150,40] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdStateTax()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[151,49] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdSocialSecurity()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[152,43] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdMedicare()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[153,42] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtd401k()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[159,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdDentalDeduction()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[160,65] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdDentalDeduction()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[162,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdVisionDeduction()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[163,65] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdVisionDeduction()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[165,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtd401k()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[166,65] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtd401k()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[168,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdOtherDeduction()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[169,65] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdOtherDeduction()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[171,16] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setYtdTotalDeductions(java.math.BigDecimal)
+[[1;31mERROR[m]   location: variable payStub of type com.payroll.service.PayStubService.PayStub
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/PayStubServiceImpl.java:[173,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getYtdNetPay()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] /home/blabs/cobol-translate/java_migration/src/main/java/com/payroll/service/impl/DeductionCalculationServiceImpl.java:[212,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   method getHealthDeduction()
+[[1;31mERROR[m]   location: variable employee of type com.payroll.domain.Employee
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
