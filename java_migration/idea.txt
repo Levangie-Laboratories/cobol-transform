@@ -1,0 +1,60 @@
+Option 1: Restore Lombok (Recommended if Lombok was intended)
+
+If the removal or disabling of Lombok was accidental or if you want to continue using it to reduce boilerplate code:
+
+    Edit pom.xml: Open your current pom.xml file.
+
+        Add/Uncomment Dependency: Make sure the Lombok dependency is present and not commented out:
+
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional> <!-- Keep optional=true if it was there -->
+        </dependency>
+
+
+
+        IGNORE_WHEN_COPYING_START
+
+    Use code with caution.Xml
+    IGNORE_WHEN_COPYING_END
+
+    Check Build Plugin: Ensure Lombok is not excluded in the spring-boot-maven-plugin configuration (remove the <exclude> block for Lombok if it exists).
+
+Edit .mvn/jvm.config:
+
+    Remove/Comment Out: Delete the line -Dmaven.compiler.proc=none or comment it out by adding a # at the beginning: # -Dmaven.compiler.proc=none. This re-enables annotation processing.
+
+Add Lombok Annotations: Go back to your domain classes (Employee.java, DeductionType.java, PayStub class, FederalTaxBracket.java, GraduatedRange.java, etc.). Add the necessary Lombok annotations (e.g., @Getter, @Setter, @Data, @NoArgsConstructor, @AllArgsConstructor, @Builder - choose the ones appropriate for each class based on the missing methods). Remove the manually added getters/setters that Lombok will now generate.
+
+    Example for Employee.java (you might need @Data or just @Getter/@Setter):
+
+
+    import lombok.Getter;
+    import lombok.Setter;
+    // ... other imports ...
+
+    @Entity
+    @Table(name = "employees")
+    @Getter // Add this
+    @Setter // Add this
+    public class Employee {
+        // ... fields ...
+
+        // Remove manually added getters/setters like getLastName(), getFirstName(), setMiddleInitial() etc.
+        // Keep utility methods like convertCobolDate, formatDateForCobol
+    }
+
+
+
+    IGNORE_WHEN_COPYING_START
+
+    Use code with caution.Java
+    IGNORE_WHEN_COPYING_END
+
+    Do the same for AdditionalDeduction, DeductionType, FederalTaxBracket, GraduatedRange, PayrollData, and the PayStub class.
+
+IDE Setup: Ensure your IDE (Eclipse, IntelliJ, VS Code) has the Lombok plugin installed and enabled. You might need to restart the IDE or enable annotation processing in the IDE's project settings.
+
+Rebuild: Run mvn clean install.

@@ -1,5 +1,8 @@
 package com.payroll.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import java.math.BigDecimal;
@@ -9,6 +12,8 @@ import java.math.BigDecimal;
  * Maps to the DEDUCT-GRAD-RANGES structure in DEDUCFILE.cpy.
  */
 @Embeddable
+@Getter
+@Setter
 public class GraduatedRange {
 
     // Default constructor required by JPA

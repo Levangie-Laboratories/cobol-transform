@@ -8,6 +8,7 @@ package com.payroll.domain.enums;
 public enum PayFrequency {
     WEEKLY("W", "Weekly", 52),
     BIWEEKLY("B", "Bi-weekly", 26),
+    SEMI_MONTHLY("S", "Semi-monthly", 24),
     MONTHLY("M", "Monthly", 12);
     
     private final String code;

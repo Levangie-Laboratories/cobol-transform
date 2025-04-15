@@ -6,6 +6,9 @@ import com.payroll.service.DeductionCalculationService.DeductionResult;
 import com.payroll.service.PayStubService.PayStub;
 import com.payroll.service.TaxCalculationService.TaxResult;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
@@ -20,6 +23,8 @@ public interface PayrollService {
     /**
      * Represents a summary of payroll processing results.
      */
+    @Getter
+    @Setter
     class PayrollSummary {
         private LocalDate payPeriodStartDate;
         private LocalDate payPeriodEndDate;
@@ -135,6 +140,8 @@ public interface PayrollService {
      * @param payrollData The pay period data containing hours worked
      * @return A breakdown of pay components (regular, overtime, other, total)
      */
+    @Getter
+    @Setter
     class PayCalculationResult {
         private BigDecimal regularPay;
         private BigDecimal overtimePay;

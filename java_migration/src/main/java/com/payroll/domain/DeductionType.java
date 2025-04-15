@@ -2,6 +2,9 @@ package com.payroll.domain;
 
 import com.payroll.domain.enums.*;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -14,6 +17,8 @@ import java.util.List;
  */
 @Entity
 @Table(name = "deduction_types")
+@Getter
+@Setter
 public class DeductionType {
 
     // Default constructor required by JPA

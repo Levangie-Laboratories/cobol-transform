@@ -88,4 +88,17 @@ public class FederalTaxBracket {
     public void setTaxRate(TaxRate taxRate) {
         this.taxRate = taxRate;
     }
+    
+    // Convenience methods to match test method names
+    public void setFloor(BigDecimal floor) {
+        this.bracketFloor = floor;
+    }
+    
+    public void setCeiling(BigDecimal ceiling) {
+        this.bracketCeiling = ceiling;
+    }
+    
+    public void setRate(BigDecimal rate) {
+        this.bracketRate = rate;
+    }
 }

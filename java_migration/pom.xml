@@ -55,13 +55,14 @@
 		</dependency>
 		
 		<!-- Utilities -->
-		<!-- Lombok dependency commented out to resolve compiler compatibility issues
+		<!-- Lombok dependency -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+				<version>1.18.30</version>
 			<optional>true</optional>
 		</dependency>
-		-->
+		
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
@@ -87,12 +88,12 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<excludes>
-						<!-- Lombok exclude commented out since dependency is removed
+						<!-- Lombok exclude -->
 						<exclude>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
 						</exclude>
-						-->
+						
 					</excludes>
 				</configuration>
 			</plugin>

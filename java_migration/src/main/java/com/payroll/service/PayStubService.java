@@ -22,6 +22,8 @@ public interface PayStubService {
     /**
      * Represents a complete pay stub with all required information.
      */
+    @Getter
+    @Setter
     class PayStub {
         // Pay stub identification
         private String payStubId;
